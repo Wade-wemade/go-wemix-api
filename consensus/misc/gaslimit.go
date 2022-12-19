@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/params"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease
