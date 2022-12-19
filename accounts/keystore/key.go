@@ -29,10 +29,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
+	"github.com/wemixarchive/go-wemix/accounts"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/crypto"
 )
 
 const (

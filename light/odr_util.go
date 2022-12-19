@@ -22,11 +22,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core"
+	"github.com/wemixarchive/go-wemix/core/rawdb"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/rlp"
 )
 
 // errNonCanonicalHash is returned if the requested chain data doesn't belong

@@ -20,11 +20,11 @@ package consensus
 import (
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core/state"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/params"
+	"github.com/wemixarchive/go-wemix/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

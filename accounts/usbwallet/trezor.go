@@ -27,13 +27,13 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/accounts/usbwallet/trezor"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
 	"github.com/golang/protobuf/proto"
+	"github.com/wemixarchive/go-wemix/accounts"
+	"github.com/wemixarchive/go-wemix/accounts/usbwallet/trezor"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/common/hexutil"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

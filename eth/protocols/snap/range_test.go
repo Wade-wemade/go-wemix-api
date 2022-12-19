@@ -19,7 +19,7 @@ package snap
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/wemixarchive/go-wemix/common"
 )
 
 // Tests that given a starting hash and a density, the hash ranger can correctly

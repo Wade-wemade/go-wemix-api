@@ -25,17 +25,17 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/trie"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/consensus"
+	"github.com/wemixarchive/go-wemix/consensus/misc"
+	"github.com/wemixarchive/go-wemix/core"
+	"github.com/wemixarchive/go-wemix/core/state"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/event"
+	"github.com/wemixarchive/go-wemix/log"
+	"github.com/wemixarchive/go-wemix/params"
+	"github.com/wemixarchive/go-wemix/trie"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 const (
@@ -1668,7 +1668,7 @@ func (w *worker) commit(env *environment, interval func(), update bool, start ti
 			interval()
 		}
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/wemixarchive/go-wemix/issues/24299
 		env := env.copy()
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, env.txs, env.unclelist(), env.receipts)
 		if err != nil {
@@ -1703,7 +1703,7 @@ func (w *worker) commitEx(env *environment, interval func(), update bool, start 
 	}
 	if w.isRunning() {
 		// Create a local environment copy, avoid the data race with snapshot state.
-		// https://github.com/ethereum/go-ethereum/issues/24299
+		// https://github.com/wemixarchive/go-wemix/issues/24299
 		env := env.copy()
 		block, err := w.engine.FinalizeAndAssemble(w.chain, env.header, env.state, env.txs, env.unclelist(), env.receipts)
 		if err != nil {

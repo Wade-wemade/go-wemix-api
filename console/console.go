@@ -31,13 +31,13 @@ import (
 	"syscall"
 
 	"github.com/dop251/goja"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/internal/jsre"
-	"github.com/ethereum/go-ethereum/internal/jsre/deps"
-	"github.com/ethereum/go-ethereum/internal/web3ext"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
+	"github.com/wemixarchive/go-wemix/console/prompt"
+	"github.com/wemixarchive/go-wemix/internal/jsre"
+	"github.com/wemixarchive/go-wemix/internal/jsre/deps"
+	"github.com/wemixarchive/go-wemix/internal/web3ext"
+	"github.com/wemixarchive/go-wemix/rpc"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/rlp"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core/forkid"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/rlp"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
 )
 
 // Constants to match up protocol versions and messages

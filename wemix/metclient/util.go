@@ -17,15 +17,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/accounts/abi"
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/wemixarchive/go-wemix"
+	"github.com/wemixarchive/go-wemix/accounts/abi"
+	"github.com/wemixarchive/go-wemix/accounts/keystore"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/common/hexutil"
+	"github.com/wemixarchive/go-wemix/common/math"
+	"github.com/wemixarchive/go-wemix/console/prompt"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/ethclient"
 )
 
 type ContractData struct {

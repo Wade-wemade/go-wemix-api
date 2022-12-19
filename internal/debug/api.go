@@ -36,11 +36,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
 	"github.com/hashicorp/go-bexpr"
+	"github.com/wemixarchive/go-wemix/ethdb"
+	"github.com/wemixarchive/go-wemix/log"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // Handler is the global debugging handler.

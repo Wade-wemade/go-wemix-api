@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/eth/tracers"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core/state"
+	"github.com/wemixarchive/go-wemix/core/vm"
+	"github.com/wemixarchive/go-wemix/eth/tracers"
+	"github.com/wemixarchive/go-wemix/params"
 )
 
 type account struct{}

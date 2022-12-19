@@ -22,9 +22,9 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/internal/debug"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/wemixarchive/go-wemix/internal/debug"
+	"github.com/wemixarchive/go-wemix/p2p/enode"
+	"github.com/wemixarchive/go-wemix/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

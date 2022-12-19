@@ -20,15 +20,15 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/consensus"
+	"github.com/wemixarchive/go-wemix/consensus/misc"
+	"github.com/wemixarchive/go-wemix/core/state"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/core/vm"
+	"github.com/wemixarchive/go-wemix/ethdb"
+	"github.com/wemixarchive/go-wemix/params"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // BlockGen creates blocks for testing.

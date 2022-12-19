@@ -18,8 +18,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/wemixarchive/go-wemix/core/rawdb"
+	"github.com/wemixarchive/go-wemix/ethdb"
 )
 
 func pack4(s []byte) []byte {

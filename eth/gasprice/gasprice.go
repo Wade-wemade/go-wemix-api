@@ -22,15 +22,15 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
 	lru "github.com/hashicorp/golang-lru"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/event"
+	"github.com/wemixarchive/go-wemix/log"
+	"github.com/wemixarchive/go-wemix/params"
+	"github.com/wemixarchive/go-wemix/rpc"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 const sampleNumber = 3 // Number of transactions sampled in a block

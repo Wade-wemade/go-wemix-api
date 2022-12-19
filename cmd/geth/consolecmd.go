@@ -22,10 +22,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/console"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/wemixarchive/go-wemix/cmd/utils"
+	"github.com/wemixarchive/go-wemix/console"
+	"github.com/wemixarchive/go-wemix/node"
+	"github.com/wemixarchive/go-wemix/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

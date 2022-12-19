@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/metrics"
 	"github.com/stretchr/testify/require"
+	"github.com/wemixarchive/go-wemix/metrics"
 )
 
 func init() {

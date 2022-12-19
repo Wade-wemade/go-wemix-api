@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/crypto"
+	"github.com/wemixarchive/go-wemix/p2p"
+	"github.com/wemixarchive/go-wemix/rlp"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
 )
 
 const (

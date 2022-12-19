@@ -19,7 +19,7 @@ package main
 import (
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/wemixarchive/go-wemix/common"
 )
 
 func TestFacebook(t *testing.T) {
