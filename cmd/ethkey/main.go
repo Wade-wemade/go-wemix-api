@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ethereum/go-ethereum/internal/flags"
+	"github.com/wemixarchive/go-wemix/internal/flags"
 	"gopkg.in/urfave/cli.v1"
 )
 

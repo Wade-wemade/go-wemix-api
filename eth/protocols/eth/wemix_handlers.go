@@ -3,8 +3,8 @@ package eth
 import (
 	"fmt"
 
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 func handleGetPendingTxs(backend Backend, msg Decoder, peer *Peer) error {

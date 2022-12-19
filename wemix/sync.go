@@ -12,13 +12,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/lru"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/common/lru"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/log"
+	"github.com/wemixarchive/go-wemix/params"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // cached governance data to derive miner's enode

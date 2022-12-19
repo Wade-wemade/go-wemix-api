@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/wemixarchive/go-wemix/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.

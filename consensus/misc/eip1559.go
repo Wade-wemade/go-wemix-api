@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/common/math"
+	"github.com/wemixarchive/go-wemix/core/types"
+	"github.com/wemixarchive/go-wemix/params"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

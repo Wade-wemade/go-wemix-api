@@ -16,8 +16,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/wemixarchive/go-wemix/ethdb"
+	"github.com/wemixarchive/go-wemix/metrics"
 )
 
 // Wemix: db stats

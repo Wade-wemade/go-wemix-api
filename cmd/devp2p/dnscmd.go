@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/console/prompt"
-	"github.com/ethereum/go-ethereum/p2p/dnsdisc"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/wemixarchive/go-wemix/accounts/keystore"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/console/prompt"
+	"github.com/wemixarchive/go-wemix/p2p/dnsdisc"
+	"github.com/wemixarchive/go-wemix/p2p/enode"
 	"gopkg.in/urfave/cli.v1"
 )
 

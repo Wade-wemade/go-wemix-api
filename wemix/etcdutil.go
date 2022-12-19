@@ -23,11 +23,11 @@ import (
 	"go.etcd.io/etcd/server/v3/etcdserver/api/membership"
 	"go.etcd.io/etcd/server/v3/etcdserver/api/v3client"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/log"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/log"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 var (

@@ -17,7 +17,7 @@
 package runtime
 
 import (
-	"github.com/ethereum/go-ethereum/core/vm/runtime"
+	"github.com/wemixarchive/go-wemix/core/vm/runtime"
 )
 
 // Fuzz is the basic entry point for the go-fuzz tool

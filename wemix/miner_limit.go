@@ -10,12 +10,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/log"
-	wemixapi "github.com/ethereum/go-ethereum/wemix/api"
-	"github.com/ethereum/go-ethereum/wemix/metclient"
-	wemixminer "github.com/ethereum/go-ethereum/wemix/miner"
+	"github.com/wemixarchive/go-wemix/common"
+	"github.com/wemixarchive/go-wemix/ethclient"
+	"github.com/wemixarchive/go-wemix/log"
+	wemixapi "github.com/wemixarchive/go-wemix/wemix/api"
+	"github.com/wemixarchive/go-wemix/wemix/metclient"
+	wemixminer "github.com/wemixarchive/go-wemix/wemix/miner"
 )
 
 // collect mining peers states
