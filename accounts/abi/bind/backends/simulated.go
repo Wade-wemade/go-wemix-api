@@ -550,14 +550,14 @@ func (b *SimulatedBackend) EstimateGas(ctx context.Context, call ethereum.CallMs
 	// Execute the binary search and hone in on an executable gas limit
 	for lo+1 < hi {
 		mid := (hi + lo) / 2
-		failed, _, err := executable(mid)
+		failed, _, _ := executable(mid)
 
 		// If the error is not nil(consensus error), it means the provided message
 		// call or transaction will never be accepted no matter how much gas it is
 		// assigned. Return the error directly, don't struggle any more
-		if err != nil {
-			return 0, err
-		}
+		// if err != nil {
+		// 	return 0, err
+		// }
 		if failed {
 			lo = mid
 		} else {
@@ -566,17 +566,17 @@ func (b *SimulatedBackend) EstimateGas(ctx context.Context, call ethereum.CallMs
 	}
 	// Reject the transaction as invalid if it still fails at the highest allowance
 	if hi == cap {
-		failed, result, err := executable(hi)
-		if err != nil {
-			return 0, err
-		}
+		failed, _, _ := executable(hi)
+		// if err != nil {
+		// 	return 0, err
+		// }
 		if failed {
-			if result != nil && result.Err != vm.ErrOutOfGas {
-				if len(result.Revert()) > 0 {
-					return 0, newRevertError(result)
-				}
-				return 0, result.Err
-			}
+			// if result != nil && result.Err != vm.ErrOutOfGas {
+			// 	if len(result.Revert()) > 0 {
+			// 		return 0, newRevertError(result)
+			// 	}
+			// 	return 0, result.Err
+			// }
 			// Otherwise, the specified gas cap is too low
 			return 0, fmt.Errorf("gas required exceeds allowance (%d)", cap)
 		}
